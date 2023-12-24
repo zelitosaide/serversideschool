@@ -5,17 +5,18 @@ defineProps<{
 </script>
 
 <template>
-  <div class="greetings">
+  <!-- <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
-  </div>
+  </div> -->
+  <h1>Welcome to serversideschool.com</h1>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -38,4 +39,4 @@ h3 {
     text-align: left;
   }
 }
-</style>
+</style> -->

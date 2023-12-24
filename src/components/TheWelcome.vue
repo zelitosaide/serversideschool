@@ -8,7 +8,12 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
-  <WelcomeItem>
+  <p>
+    <a href="https://doxample.com" target="_blank" rel="noopener noreferrer">
+      powered by doxample.com
+    </a>
+  </p>
+  <!-- <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
@@ -84,5 +89,14 @@ import SupportIcon from './icons/IconSupport.vue'
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 </template>
+
+<style scoped>
+/* a {
+  font-weight: 500;
+  font-size: 2.6rem;
+  position: relative;
+  top: -10px;
+} */
+</style>
